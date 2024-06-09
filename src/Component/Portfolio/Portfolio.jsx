@@ -1,3 +1,4 @@
+import { Link } from 'react-scroll';
 import Food_can_go from '../../assets/Portfolio_assets/Screenshot (344).png'
 import Edusity from '../../assets/Portfolio_assets/Screenshot (355).png'
 import N_X from '../../assets/Portfolio_assets/Screenshot (366).png'

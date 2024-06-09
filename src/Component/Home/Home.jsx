@@ -1,3 +1,4 @@
+import { Link } from 'react-scroll';
 import HeroImage from '../../assets/Portfolio_assets/hero-pfl.png'
 import { FaPersonWalkingArrowRight } from "react-icons/fa6";
 
@@ -15,11 +16,11 @@ const Home = () => {
                         React, Tailwind, MongoDB.
                     </p>
                     <div>
-                        <button className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 gap-2 cursor-pointer '>
+                        <Link to='portfolio' smooth duration={500} className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 gap-2 cursor-pointer '>
                             Portfolio
                             <span className='group-hover:rotate-90 duration-300  '><FaPersonWalkingArrowRight size={25} /></span>
                             
-                        </button>
+                        </Link>
                     </div>
                 </div>
                 <div>
