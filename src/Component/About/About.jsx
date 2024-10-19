@@ -8,12 +8,25 @@ const About = () => {
                     <p className="text-4xl font-bold inline border-b-4 border-gray-500 ">About</p>
                 </div>
                 <p className="text-xl mt-20  ">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam molestiae cumque sit quasi voluptas velit qui itaque possimus, maxime commodi voluptatibus nesciunt magnam magni distinctio maiores doloribus soluta inventore officiis.
+                Hi, I'm Mosayeb, a passionate software engineer specializing in building exceptional front-end experiences. I have a deep love for working with modern frameworks like React and Next.js, where I bring intuitive and responsive user interfaces to life. My focus is on creating web applications that are not only visually appealing but also fast and optimized for performance.
                 </p>
                 <br />
                 <p className="text-xl">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, tenetur! Cupiditate totam illum ipsum, est rem dolores iure dolorem similique optio, odit voluptatum tenetur odio praesentium voluptate? Beatae nobis minima ullam consectetur eligendi? Magnam doloremque quos voluptatum, quod quas nulla laborum rem dolor tenetur iusto blanditiis illum, nostrum aliquam nemo!
+                While front-end development is my primary area of expertise, I'm also on a journey to mastering back-end technologies, learning about server-side logic, APIs, and databases to grow into a well-rounded developer. Working with Next.js has helped me bridge the gap between front-end and back-end development, allowing me to create seamless, full-stack applications.
                 </p>
+                <br />
+                <p className="text-xl">
+                I’m driven by a desire to solve complex problems and stay ahead of the curve in the ever-evolving tech landscape. Whether it's collaborating with teams or working on solo projects, I aim to build scalable, user-friendly, and efficient solutions.
+                </p>
+                <br />
+                <p className="text-xl">
+                When I'm not coding, I'm likely exploring new tools and frameworks, contributing to open-source projects, or learning new skills to continue growing as a developer.
+                </p>
+                <br />
+                <p className="text-xl">
+                Let's connect and create something awesome together!
+                </p>
+               
             </div>
         </div>
     );
