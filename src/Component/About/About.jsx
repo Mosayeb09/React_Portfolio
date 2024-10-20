@@ -13,19 +13,28 @@ const About = () => {
                 <br />
                 <p className="text-xl">
                 While front-end development is my primary area of expertise, I'm also on a journey to mastering back-end technologies, learning about server-side logic, APIs, and databases to grow into a well-rounded developer. Working with Next.js has helped me bridge the gap between front-end and back-end development, allowing me to create seamless, full-stack applications.
+                <br />
+                <br />
+                I’m driven by a desire to solve complex problems and stay ahead of the curve in the ever-evolving tech landscape. Whether it's collaborating with teams or working on solo projects, I aim to build scalable, user-friendly, and efficient solutions.
+                <br />
+                <br />
+                When I'm not coding, I'm likely exploring new tools and frameworks, contributing to open-source projects, or learning new skills to continue growing as a developer.
+                <br />
+                <br />
+                Let's connect and create something awesome together!
                 </p>
                 <br />
-                <p className="text-xl">
+                {/* <p className="text-xl">
                 I’m driven by a desire to solve complex problems and stay ahead of the curve in the ever-evolving tech landscape. Whether it's collaborating with teams or working on solo projects, I aim to build scalable, user-friendly, and efficient solutions.
                 </p>
-                <br />
-                <p className="text-xl">
+                <br /> */}
+                {/* <p className="text-xl">
                 When I'm not coding, I'm likely exploring new tools and frameworks, contributing to open-source projects, or learning new skills to continue growing as a developer.
                 </p>
                 <br />
                 <p className="text-xl">
                 Let's connect and create something awesome together!
-                </p>
+                </p> */}
                
             </div>
         </div>
