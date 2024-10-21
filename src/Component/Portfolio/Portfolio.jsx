@@ -29,7 +29,7 @@ const Portfolio = () => {
             id: 4,
             src: Doctors,
             demo: 'https://khanbiotech.com/',
-            code: 'home'
+            code: '/home'
         },
     ]
 
