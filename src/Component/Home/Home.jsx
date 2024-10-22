@@ -1,6 +1,7 @@
 import { Link } from 'react-scroll';
 import HeroImage from '../../assets/Portfolio_assets/hero-pfl.png'
 import { FaPersonWalkingArrowRight } from "react-icons/fa6";
+import { FaFileDownload } from "react-icons/fa";
 
 const Home = () => {
     return (
@@ -15,16 +16,29 @@ const Home = () => {
                         Currently,I love to work on web application using technologies like
                         React, Tailwind, MongoDB.
                     </p>
-                    <div>
-                        <Link to='portfolio' smooth duration={500} className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 gap-2 cursor-pointer '>
+                    <div className=' flex gap-4'>
+                        <Link to='portfolio' smooth duration={500} className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md font-bold bg-gradient-to-r from-cyan-500 to-blue-500 gap-2 cursor-pointer '>
                             Portfolio
                             <span className='group-hover:rotate-90 duration-300  '><FaPersonWalkingArrowRight size={25} /></span>
-                            
+
                         </Link>
+
+                        <a
+                            href="../../../public/Mosayeb-Hossain.pdf"
+                            download= 'Mosayeb-Hossain.pdf'                            className="block  lg:hidden group w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 text-white font-bold  transition-transform duration-300"
+                        >
+                            Resume
+                            <span className="ml-2 group-hover:rotate-90 duration-300">
+                            <FaFileDownload />
+                            </span>
+                        </a>
+
+
+
                     </div>
                 </div>
                 <div>
-                    <img src={HeroImage} alt="my profile"  className='rounded-2xl mx-auto w-2/3 md:w-full  '/>
+                    <img src={HeroImage} alt="my profile" className='rounded-2xl mx-auto w-2/3 md:w-full  ' />
                 </div>
             </div>
         </div>

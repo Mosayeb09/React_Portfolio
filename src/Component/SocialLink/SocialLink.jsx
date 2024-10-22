@@ -45,7 +45,7 @@ const SocialLink = () => {
                     Resume <BsFillPersonLinesFill size={30} />
                 </>
             ),
-            href: '../../../public/Mosayeb Hossain(new +cv) .pdf',
+            href: '../../../public/Mosayeb-Hossain.pdf',
             className: 'rounded-br-md',
             download: true,
 
