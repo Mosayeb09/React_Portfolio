@@ -7,7 +7,7 @@ const Footer = () => {
                     <div className="flex justify-between items-center flex-wrap">
                         {/* Left section: Navigation or logo */}
                         <div className="w-full md:w-auto mb-4 md:mb-0">
-                            <h2 className="text-3xl font-signature"><a href="home">Mosayeb</a></h2>
+                            <h2 className="text-3xl font-signature"><a href="/">Mosayeb</a></h2>
                             {/* <p className="text-sm mt-2">Building digital experiences that matter.</p> */}
                         </div>
 
