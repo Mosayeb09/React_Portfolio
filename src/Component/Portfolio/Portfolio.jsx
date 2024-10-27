@@ -3,6 +3,8 @@ import Food_can_go from '../../assets/Portfolio_assets/Screenshot (344).png'
 import Edusity from '../../assets/Portfolio_assets/Screenshot (355).png'
 import N_X from '../../assets/Portfolio_assets/Screenshot (366).png'
 import Doctors from '../../assets/Portfolio_assets/Screenshot (388).png'
+import Music_Courses from '../../assets/Portfolio_assets/Music-Courses.png'
+
 
 const Portfolio = () => {
 
@@ -15,18 +17,24 @@ const Portfolio = () => {
         },
         {
             id: 2,
+            src: Music_Courses,
+            demo: 'https://music-courses-navy.vercel.app/',
+            code: 'https://github.com/Mosayeb09/Music-courses'
+        },
+        {
+            id: 3,
             src: Edusity,
             demo: 'https://edusity-sepia.vercel.app/',
             code: 'https://github.com/Mosayeb09/Edusity.git'
         },
         {
-            id: 3,
+            id: 4,
             src: N_X,
             demo: 'https://mosayeb09.github.io/N_X/',
             code: 'https://github.com/Mosayeb09/N_X.git'
         },
         {
-            id: 4,
+            id: 5,
             src: Doctors,
             demo: 'https://khanbiotech.com/',
             code: '/home'
