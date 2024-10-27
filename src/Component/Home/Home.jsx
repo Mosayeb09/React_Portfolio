@@ -24,7 +24,7 @@ const Home = () => {
                         </Link>
 
                         <a
-                            href="../../../public/Mosayeb_Hossain.pdf"
+                            href="../../assets/Portfolio_assets/Mosayeb-Hossain.pdf"
                             download= 'Mosayeb_Hossain.pdf'                            className="block  lg:hidden group w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-blue-500 to-cyan-500 text-white font-bold  transition-transform duration-300"
                         >
                             Resume
